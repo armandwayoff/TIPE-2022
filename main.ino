@@ -8,18 +8,19 @@
 #include <Wire.h>
 #include <Wiichuck.h>
 
-// Pins L298N
 #define enA 10
 #define in1 9
 #define in2 8
 
 Wiichuck wii;
 
-int rotDirection = 0;
-int current;
-int previous = 0;
+int sens_rot = 0;
+int etat_actuel;
+int etat_precedent = 0;
+int dt = 20;
 
-void setup() {  
+void setup() 
+{  
   Serial.begin(9600);
   
   wii.init();  
@@ -33,26 +34,32 @@ void setup() {
   digitalWrite(in2, HIGH);
 }
 
-void loop() {
-  if (wii.poll()) {
-    int potValue = wii.joyY(); // Lecture de la valeur du joystick selon l'axe Y
-    int pwmOutput = map(potValue, 0, 1023, 0, 255); 
-    analogWrite(enA, pwmOutput); 
-
-    current = wii.buttonZ();
-    if (current == 1 && previous == 0) {
-      if (rotDirection == 0) {
+void loop() 
+{
+  if (wii.poll()) 
+  {
+    int valeur_joystick = wii.joyY(); 
+    int sortie_pwm = map(valeur_joystick, 0, 1023, 0, 255); 
+    analogWrite(enA, sortie_pwm);
+    
+    etat_actuel = wii.buttonZ();
+    if (etat_actuel == 1 && etat_precedent == 0) 
+    {
+      if (sens_rot == 0) 
+      {
         digitalWrite(in1, HIGH);
         digitalWrite(in2, LOW);
-        rotDirection = 1;
-        delay(20);
-      } else {
+        sens_rot = 1;
+        delay(dt);
+      } 
+      else 
+      {
         digitalWrite(in1, LOW);
         digitalWrite(in2, HIGH);
-        rotDirection = 0;
-        delay(20);
+        sens_rot = 0;
+        delay(dt);
       }
     } 
-    previous = current;
+    etat_precedent = etat_actuel;
   }
 } 
