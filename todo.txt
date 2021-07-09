@@ -1,2 +1,2 @@
 - liste du matériel avec lien, description technique, photo
-- fichiers 3D
+- pièces 3D (fichier .gcode, dessin industriel ou vue éclatée)
