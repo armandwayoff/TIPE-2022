@@ -6,6 +6,8 @@
 # Conception du robot
 ## Premier robot
 
+![Robot v15](Robot v15.png)
+
 | Longueur | 3m      |
 | Diamètre | 50mm    |
 | Débit du compresseur  | 25L/min |
