@@ -8,8 +8,8 @@
 
 | Longueur | 3m      |
 | Diamètre | 50mm    |
-| Débit    | 25L/min |
-| Pression | 1,5atm  |
+| Débit du compresseur  | 25L/min |
+| Pression dans le tube | 1,5atm  |
 
 ### Objectif
 Déployer le corps du robot et contrôler sa vitesse d'extrusion
