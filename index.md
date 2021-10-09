@@ -15,5 +15,7 @@
 Déployer le corps du robot et contrôler sa vitesse d'extrusion
 ## Deuxième robot
 
+![Robot3_vue_eclatee](Robot3_vue_eclatee.png)
+
 # Documents
 [Présentation orale](https://www.overleaf.com/read/zycrhdjdwmsb)
