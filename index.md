@@ -1,6 +1,4 @@
----
-layout: default
----
+@font-face { font-family: CMU; src: url('cmunti.ttf');} body { font-family:CMU; }
 
 # En cours de conception...
 
