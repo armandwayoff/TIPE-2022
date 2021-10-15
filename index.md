@@ -17,7 +17,7 @@
 Déployer le corps du robot et contrôler sa vitesse d'extrusion
 ## Deuxième robot
 
-![Grand Robot PVC Dessin v2)(Grand_Robot_PVC_Dessin_v2.png)
+![Grand Robot PVC Dessin v2](Grand_Robot_PVC_Dessin_v2.png)
 
 # Documents
 [Présentation orale](https://www.overleaf.com/read/zycrhdjdwmsb)
