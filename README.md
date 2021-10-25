@@ -5,8 +5,14 @@
 
 https://armandwayoff.github.io/TIPE-2022/
 
-## Robot V.1
+## V.1
 
 ### Librairie Wiichuck
 
 https://github.com/coopermaa/Wiichuck
+
+## V.2
+
+### V.2.1
+
+### V.2.2
