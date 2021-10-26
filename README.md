@@ -5,14 +5,13 @@
 
 https://armandwayoff.github.io/TIPE-2022/
 
-## V.1
+## V1
 
 [comment]: LibrairieWiichuck
-
 [comment]: https://github.com/coopermaa/Wiichuck
 
-## V.2
+## V2
 
-### V.2.1
+### V2.1
 
-### V.2.2
+### V2.2
