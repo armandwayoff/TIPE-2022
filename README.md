@@ -7,9 +7,9 @@ https://armandwayoff.github.io/TIPE-2022/
 
 ## V.1
 
-### Librairie Wiichuck
+[comment]: LibrairieWiichuck
 
-https://github.com/coopermaa/Wiichuck
+[comment]: https://github.com/coopermaa/Wiichuck
 
 ## V.2
 
