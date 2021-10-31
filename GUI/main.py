@@ -16,6 +16,7 @@ ports = serial.tools.list_ports.comports()
 
 def open_ports_window():
     ports_window = Toplevel()
+    ports_window.grab_set()
     ports_window.title("Sélectionner un port série")
 
     serial_obj = serial.Serial()
