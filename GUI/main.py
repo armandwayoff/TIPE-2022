@@ -1,3 +1,7 @@
+__author__ = "Armand Wayoff"
+__email__ = "armandwayoff@lavabit.com"
+__date__ = "Oct 2021"
+
 import serial.tools.list_ports
 import functools
 from tkinter import *
@@ -7,7 +11,11 @@ TITLE = "Interface de commande du robot"
 FONT_SIZE_TITLE = 12
 FONT_SIZE = 10
 FONT_SIZE_AUTHOR = 8
+DELAY = 500  # ms
 
+state_port = False
+
+# Main window
 root = Tk()
 root.title(TITLE)
 
@@ -19,6 +27,7 @@ def open_ports_window():
     ports_window.grab_set()
     ports_window.title("Sélectionner un port série")
 
+    global serial_obj
     serial_obj = serial.Serial()
 
     def init_com_port(index):
@@ -28,8 +37,13 @@ def open_ports_window():
         serial_obj.baudrate = 9600
         if not serial_obj.isOpen():
             serial_obj.open()
+
+        global state_port
+        state_port = True
+
         label_select_port.config(text="Port série sélectionné : " + com_port_var)
         button_select_port.config(text="Modifier")
+
         ports_window.destroy()
 
     if len(ports) > 0:
@@ -45,8 +59,15 @@ def open_ports_window():
 
 
 def send_data(serial_port):
-    serial_port.write((str(scale_air.get()) + " " + str(scale_camera.get())).encode())
+    data = (str(scale_air.get()) + " " + str(scale_camera.get())).encode()
+    serial_port.write(data)
+    root.after(DELAY, send_data)
 
+
+if state_port:
+    root.after(DELAY, send_data)
+
+# Widgets
 
 label_select_port = Label(root,
                           text="Auncun port série sélectionné",
