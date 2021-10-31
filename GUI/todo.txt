@@ -1,4 +1,0 @@
-GUI:
-- quand la fenêtre de sélection est ouverte, empêcher toute interaction avec la fenêtre principale
-- quand on sélectionne le port série, fermer la fenêtre
-- afficher le port série sélectionné sur la fenêtre principale
