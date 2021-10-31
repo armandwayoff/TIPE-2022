@@ -18,6 +18,8 @@ state_port = False
 # Main window
 root = Tk()
 root.title(TITLE)
+root.geometry("370x230")
+root.resizable(False, False)
 
 ports = serial.tools.list_ports.comports()
 
