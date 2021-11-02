@@ -4,20 +4,20 @@
 
 # Présentation du projet
 # Conception du robot
-## Premier robot
 
-![Robot v15](Robot v15.png)
+### Objectif
+Déployer le corps du robot et contrôler sa vitesse d'extrusion
 
 | Longueur | 3m      |
 | Diamètre | 50mm    |
 | Débit du compresseur  | 25L/min |
 | Pression dans le tube | 1,5atm  |
 
-### Objectif
-Déployer le corps du robot et contrôler sa vitesse d'extrusion
-## Deuxième robot
+## V2.2
 
 ![Grand Robot PVC Dessin v2](Grand_Robot_PVC_Dessin_v2.png)
 
 # Documents
-[Présentation orale](https://www.overleaf.com/read/zycrhdjdwmsb)
+📃[Compte rendu](https://www.overleaf.com/read/gymmdvhcswqz)
+
+🗨 [Présentation orale](https://www.overleaf.com/read/zycrhdjdwmsb)
