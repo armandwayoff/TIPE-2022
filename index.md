@@ -20,5 +20,4 @@ Déployer le corps du robot et contrôler sa vitesse d'extrusion
 --->
 
 # Documents
-📃[Compte rendu](https://www.overleaf.com/read/gymmdvhcswqz)\
 🗨 [Présentation orale](https://www.overleaf.com/read/zycrhdjdwmsb)
