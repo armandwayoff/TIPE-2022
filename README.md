@@ -5,7 +5,7 @@
 
 https://armandwayoff.github.io/TIPE-2022/
 
-Présentation orale : https://www.overleaf.com/read/zycrhdjdwmsb.
+🗨 Présentation orale : https://www.overleaf.com/read/zycrhdjdwmsb.
 
 ## V1
 
