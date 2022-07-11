@@ -1,5 +1,7 @@
 # V2.2
 
+Cette version du robot comprend un système de contrôle d'un régulateur de pression et une nouvelle version du système d'extrusion du câble du boroscope ainsi qu'un tube anti-frottements à travers lequel le câble glisse. 
+
 ## Modèles 3D
 
 | Nom          | Image     | 
