@@ -3,8 +3,6 @@
 # TIPE 2022
 ## 🐍 Conception d'un robot sauveteur-déblayeur - Amélioration des méthodes de recherche et de secours de victimes dans un environnement accidenté 
 
-https://armandwayoff.github.io/TIPE-2022/
-
 🗨 Présentation orale : https://www.overleaf.com/read/zycrhdjdwmsb.
 
 ## V1
